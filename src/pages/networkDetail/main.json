@@ -1,0 +1,19 @@
+{
+    "navigationBarTitleText": "作品详情",
+    "navigationBarBackgroundColor": "#2AD1B3",
+    "backgroundColor":"#F4F9FB",
+    "navigationStyle":"custom",
+    "usingComponents": {
+        "i-drawer": "/static/dist/drawer/index",
+        "i-input-number": "/static/dist/input-number/index",
+        "van-tabbar": "/static/vant/tabbar/index",
+        "van-tabbar-item": "/static/vant/tabbar-item/index",
+        "van-search": "/static/vant/search/index",
+        "van-icon": "/static/vant/icon/index",
+        "van-field": "/static/vant/field/index",
+        "van-picker": "/static/vant/picker/index",
+        "van-stepper": "/static/vant/stepper/index",
+        "van-toast": "/static/vant/toast/index",
+        "van-popup": "/static/vant/popup/index"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/login/main",
+        "pages/expert/main",
+        "pages/search/main",
+        "pages/experted/main",
+        "pages/my/main",
+        "pages/switchComp/main",
+        "pages/switchCompChild/main",
+
+
+        "pages/networkDetail/main",
+
+
+        "pages/rateDetail/main",
+        "pages/index/main",
+
+
+        "pages/counter/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "评审系统",
+        "navigationStyle":"custom",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "已评审",
+                "pagePath": "pages/experted/main",
+                "iconPath": "static/tabs/judge.png",
+                "selectedIconPath": "static/tabs/judged.png",
+                "selected": false
+            },
+            {
+                "text": "去评审",
+                "pagePath": "pages/expert/main",
+                "iconPath": "static/tabs/go.png",
+                "selectedIconPath": "static/tabs/go.png",
+                "selected": false
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/my/main",
+                "iconPath": "static/tabs/my.png",
+                "selectedIconPath": "static/tabs/myed.png",
+                "selected": true
+            }
+        ],
+        "position": "bottom"
+    }
+}

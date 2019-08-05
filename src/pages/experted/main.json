@@ -1,0 +1,15 @@
+{
+    "navigationBarTitleText": "竞赛列表",
+    "navigationBarBackgroundColor": "#2AD1B3",
+    "navigationStyle":"custom",
+    "onReachBottomDistance":30,
+    "usingComponents": {
+        "i-cell-group": "/static/dist/cell-group/index",
+        "i-cell": "/static/dist/cell/index",
+        "van-search": "/static/vant/search/index",
+        "van-row": "/static/vant/row/index",
+        "van-col": "/static/vant/col/index",
+        "van-card": "/static/vant/card/index",
+        "van-loading": "/static/vant/loading/index"
+    }
+}

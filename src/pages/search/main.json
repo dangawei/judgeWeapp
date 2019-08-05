@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "搜索作品",
+    "usingComponents": {
+        "van-cell-group": "/static/vant/cell-group/index",
+        "van-cell": "/static/vant/cell/index",
+        "van-search": "/static/vant/search/index"
+    }
+}
